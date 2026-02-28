@@ -6,7 +6,12 @@ for (let i = 1; i <= 100; i++) {
     //controlliamo se il numero è divisibile per 3
     else if (i % 3 === 0) { 
         console.log("Fizz");
-    } else {
+    } 
+    //controlliamo se il numero è divisibile per 5
+     else if (i % 5 === 0) {
+        console.log("Buzz");
+    } 
+    else {
         console.log(i);
     };
 }
